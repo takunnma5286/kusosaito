@@ -1,5 +1,6 @@
 <!DOCTYPE_html>
 <html lang="ja">
+<link rel="icon" href="favicon.ico">
 <head>
     <meta charset="UTF-8">
     <title>検索中、、、。</title>
