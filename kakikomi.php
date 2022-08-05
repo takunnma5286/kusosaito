@@ -3,7 +3,7 @@
 <link rel="icon" href="favicon.ico">
 <head>
     <meta charset="UTF-8">
-    <title>検索中、、、。</title>
+    <title>書き込みます</title>
 </head>
 <body>
     <?php
@@ -24,13 +24,6 @@
         echo '</p>';
 
         $dbh = null;
-
-    echo '<p>';
-    echo '正常に処理が完了しました、googleなページへ転送します';
-    echo '<meta http-equiv="refresh" content="0;url=https://www.google.com/search?q=';
-    echo htmlspecialchars($_POST['do'], ENT_QUOTES);
-    echo '">';
-    echo '</p>';
     ?>
 </body>
 </html>

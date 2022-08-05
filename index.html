@@ -6,24 +6,18 @@
     <meta charset="UTF-8">
     <title>これは index.htmlなんだお!</title>
 </head>
-<audio src="audio.wav" autoplay>
-    あなたのブラウザーは <code>audio</code>要素をサポートしていません。
-</audio>
 <body>
-    <div class="hoge box tadanoUp" style="color:#FFFFFF">
+<!--    <div class="hoge box tadanoUp" style="color:#FFFFFF">!-->
     <center>
-    <h1> 大変申し訳ございませんが </h1>
+    <h1>  <div class="countinfinite box fadeUp">修学旅行で行きたいところは?</div></h1>
+
+    <form method="post" action="kakikomi.php">
+        行きたい場所を入力: <input type="text" name="do" required>
+    <input type="submit" value="GO!!">
+
     <br>
-    <h1> このページは404 Not Foundのため </h1>
-    <br>
-    <h1> ご覧になることができません </h1>
-    <br>
-    <h1> またの御アクセスをお待ちしていおります </h1>
-    <br>
-    <h1>  <div class="countinfinite box fadeUp">検索します</div></h1>
-    <form method="post" action="print.php">
-        何検索する? <input type="text" name="do" required>
-        <input type="submit" value="GO!!">
+    <a href="yomikomi.php">閲覧</a>
+
     </div>
     </form>
     </center>
